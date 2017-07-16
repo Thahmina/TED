@@ -1,0 +1,30 @@
+<tool id="divide_multiply" name="Operator Multiply Tool" version="1.0.0">
+  <description> - Multiplying numeric values by 2 </description>
+  
+  <command interpreter="perl">
+  	arithmetic_operations.pl $inputFile1 /home/galaxy/galaxy-dist/tools/arithmetic_operations/2.dat $inputArithmeticOperation3 $outputFile1
+  </command>
+
+  <inputs>
+  	<param format="tabular" name="inputFile1" type="data" label="Select the first input tabular file"/>
+  	
+    <param name="inputArithmeticOperation3" type="select" label="Choose the arithmetic operation:">
+      	<option value="Multiplication" selected="true">Multiplication</option>
+    </param>
+  </inputs>
+  
+  <outputs>
+    <data format="tabular" name="outputFile1"/>
+  </outputs>
+  
+  <help> 
+
+.. class:: infomark
+
+Function:
+
+- Your input values will be multiplied by 2.
+
+  </help>  
+  
+</tool>
