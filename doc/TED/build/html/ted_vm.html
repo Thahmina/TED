@@ -1,0 +1,228 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TED Virtual Machine (VM) &#8212; TED 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Where to find TED" href="ted_how.html" />
+    <link rel="prev" title="Ultimate Guide to the TED toolkit: Transcriptomics that’s Easy to Discover (TED)" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ted-virtual-machine-vm">
+<h1>TED Virtual Machine (VM)<a class="headerlink" href="#ted-virtual-machine-vm" title="Permalink to this headline">¶</a></h1>
+<p>How to run the TED toolkit Virtual Machine (VM) Application</p>
+<div class="section" id="pre-requisites">
+<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Permalink to this headline">¶</a></h2>
+<p>Download VirtualBox: <a class="reference external" href="http://www.virtualbox">http://www.virtualbox</a></p>
+</div>
+<div class="section" id="setting-up-ted-vm-application">
+<h2>Setting up TED VM Application<a class="headerlink" href="#setting-up-ted-vm-application" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="select-appliance-on-vm">
+<h3>Select Appliance on VM<a class="headerlink" href="#select-appliance-on-vm" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/importvm.jpg" class="align-center" src="_images/importvm.jpg" />
+</div>
+<div class="section" id="import-appliance-on-vm">
+<h3>Import Appliance on VM<a class="headerlink" href="#import-appliance-on-vm" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/appliancevm_import.jpg" class="align-center" src="_images/appliancevm_import.jpg" />
+</div>
+<div class="section" id="ted-appliance-settings-for-import-on-vm">
+<h3>TED Appliance settings for import on VM<a class="headerlink" href="#ted-appliance-settings-for-import-on-vm" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/appliancevm.jpg" class="align-center" src="_images/appliancevm.jpg" />
+</div>
+<div class="section" id="ted-appliance-importing-on-vm">
+<h3>TED Appliance Importing on VM<a class="headerlink" href="#ted-appliance-importing-on-vm" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/applianceimporting.jpg" class="align-center" src="_images/applianceimporting.jpg" />
+</div>
+</div>
+<div class="section" id="ted-appliance-settings-on-vm">
+<h2>TED Appliance Settings on VM<a class="headerlink" href="#ted-appliance-settings-on-vm" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="go-to-settings">
+<h3>Go to Settings<a class="headerlink" href="#go-to-settings" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/settings.jpg" class="align-center" src="_images/settings.jpg" />
+</div>
+<div class="section" id="system-requirements">
+<h3>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h3>
+<p>Open virtual disk file for TED Appliance on VM</p>
+<img alt="_images/boot2docker.jpg" class="align-center" src="_images/boot2docker.jpg" />
+</div>
+<div class="section" id="network">
+<h3>Network<a class="headerlink" href="#network" title="Permalink to this headline">¶</a></h3>
+<p>Setup Adapter 1</p>
+<img alt="_images/network.jpg" class="align-center" src="_images/network.jpg" />
+<p>Setup Adapter 2</p>
+<img alt="_images/networkadapter2.jpg" class="align-center" src="_images/networkadapter2.jpg" />
+</div>
+<div class="section" id="shared-folders">
+<h3>Shared Folders<a class="headerlink" href="#shared-folders" title="Permalink to this headline">¶</a></h3>
+<p>Setup Adapter 1</p>
+<img alt="_images/sharedfolders.jpg" class="align-center" src="_images/sharedfolders.jpg" />
+</div>
+</div>
+<div class="section" id="connecting-ted-appliance-on-vm">
+<h2>Connecting TED Appliance on VM<a class="headerlink" href="#connecting-ted-appliance-on-vm" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Go to Settings<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/boot2dockerterm.jpg" class="align-center" src="_images/boot2dockerterm.jpg" />
+</div>
+<div class="section" id="broad-casted-galaxy-instance-ip-address">
+<h3>Broad casted Galaxy instance IP address<a class="headerlink" href="#broad-casted-galaxy-instance-ip-address" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/connectinggalaxy.jpg" class="align-center" src="_images/connectinggalaxy.jpg" />
+</div>
+<div class="section" id="web-browser-connection-of-galaxy-instance-on-vm">
+<h3>Web Browser connection of Galaxy instance on VM<a class="headerlink" href="#web-browser-connection-of-galaxy-instance-on-vm" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/galaxy.jpg" class="align-center" src="_images/galaxy.jpg" />
+</div>
+</div>
+<div class="section" id="how-to-access-ted-toolkit-on-vm">
+<h2>How to access TED toolkit on VM<a class="headerlink" href="#how-to-access-ted-toolkit-on-vm" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ted-vm-troubleshoot">
+<h2>TED VM Troubleshoot<a class="headerlink" href="#ted-vm-troubleshoot" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="galaxy-instance-ip-address-unreachable">
+<h3>Galaxy instance IP address unreachable<a class="headerlink" href="#galaxy-instance-ip-address-unreachable" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/notconnected.jpg" class="align-center" src="_images/notconnected.jpg" />
+</div>
+<div class="section" id="reinitialize-ted-appliance">
+<h3>Reinitialize TED appliance<a class="headerlink" href="#reinitialize-ted-appliance" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/troubleshoot.jpg" class="align-center" src="_images/troubleshoot.jpg" />
+</div>
+<div class="section" id="reconnect-galaxy-instance-ip-address-on-web-browser">
+<h3>Reconnect Galaxy instance IP address on web browser<a class="headerlink" href="#reconnect-galaxy-instance-ip-address-on-web-browser" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/galaxy.jpg" class="align-center" src="_images/galaxy.jpg" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">TED</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">TED Virtual Machine (VM)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-requisites">Pre-requisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-up-ted-vm-application">Setting up TED VM Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#select-appliance-on-vm">Select Appliance on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#import-appliance-on-vm">Import Appliance on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ted-appliance-settings-for-import-on-vm">TED Appliance settings for import on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ted-appliance-importing-on-vm">TED Appliance Importing on VM</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ted-appliance-settings-on-vm">TED Appliance Settings on VM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#go-to-settings">Go to Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#network">Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#shared-folders">Shared Folders</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#connecting-ted-appliance-on-vm">Connecting TED Appliance on VM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Go to Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#broad-casted-galaxy-instance-ip-address">Broad casted Galaxy instance IP address</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#web-browser-connection-of-galaxy-instance-on-vm">Web Browser connection of Galaxy instance on VM</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-access-ted-toolkit-on-vm">How to access TED toolkit on VM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ted-vm-troubleshoot">TED VM Troubleshoot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#galaxy-instance-ip-address-unreachable">Galaxy instance IP address unreachable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reinitialize-ted-appliance">Reinitialize TED appliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reconnect-galaxy-instance-ip-address-on-web-browser">Reconnect Galaxy instance IP address on web browser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html">Where to find TED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html#how-to-run-ted">How to run TED</a></li>
+</ul>
+<p class="caption"><span class="caption-text">About:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#contact">Contact</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Ultimate Guide to the TED toolkit: Transcriptomics that’s Easy to Discover (TED)</a></li>
+      <li>Next: <a href="ted_how.html" title="next chapter">Where to find TED</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Thahmina Ali.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/ted_vm.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

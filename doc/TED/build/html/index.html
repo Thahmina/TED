@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ultimate Guide to the TED toolkit: Transcriptomics that’s Easy to Discover (TED) &#8212; TED 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Where to find TED" href="ted_how.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ultimate-guide-to-the-ted-toolkit-transcriptomics-that-s-easy-to-discover-ted">
+<h1>Ultimate Guide to the TED toolkit: Transcriptomics that’s Easy to Discover (TED)<a class="headerlink" href="#ultimate-guide-to-the-ted-toolkit-transcriptomics-that-s-easy-to-discover-ted" title="Permalink to this headline">¶</a></h1>
+<p><strong>A comprehensive and standardized approach for transcriptomic profiling as a clinically-oriented application.</strong></p>
+<p>TED toolkit Manual-</p>
+<p>Our Galaxy Page: <strong>http://galaxy.hunter.cuny.edu/u/bioitcore/p/transcriptomics-thats-easy-to-discover-ted-toolkit</strong> includes all instructions and sources in accessing and using the TED toolkit in full details, as well as the following content below.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html">Where to find TED</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ted_how.html#pre-requisites">Pre-requisites</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html#how-to-run-ted">How to run TED</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ted_how.html#setting-up-data-inputs">Setting up Data Inputs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ted_vm.html">TED Virtual Machine (VM)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#pre-requisites">Pre-requisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#setting-up-ted-vm-application">Setting up TED VM Application</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#select-appliance-on-vm">Select Appliance on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#import-appliance-on-vm">Import Appliance on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#ted-appliance-settings-for-import-on-vm">TED Appliance settings for import on VM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#ted-appliance-importing-on-vm">TED Appliance Importing on VM</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#ted-appliance-settings-on-vm">TED Appliance Settings on VM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#go-to-settings">Go to Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#network">Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#shared-folders">Shared Folders</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#connecting-ted-appliance-on-vm">Connecting TED Appliance on VM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#id1">Go to Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#broad-casted-galaxy-instance-ip-address">Broad casted Galaxy instance IP address</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#web-browser-connection-of-galaxy-instance-on-vm">Web Browser connection of Galaxy instance on VM</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#how-to-access-ted-toolkit-on-vm">How to access TED toolkit on VM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ted_vm.html#ted-vm-troubleshoot">TED VM Troubleshoot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#galaxy-instance-ip-address-unreachable">Galaxy instance IP address unreachable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#reinitialize-ted-appliance">Reinitialize TED appliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ted_vm.html#reconnect-galaxy-instance-ip-address-on-web-browser">Reconnect Galaxy instance IP address on web browser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">About:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#contact">Contact</a></li>
+</ul>
+</div>
+<ul class="simple">
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">TED</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html">Where to find TED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ted_how.html#how-to-run-ted">How to run TED</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ted_vm.html">TED Virtual Machine (VM)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">About:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#contact">Contact</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="ted_how.html" title="next chapter">Where to find TED</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Thahmina Ali.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
