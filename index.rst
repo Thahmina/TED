@@ -1,2 +1,0 @@
-
-TED by Thahmina Ali
