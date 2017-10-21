@@ -10,13 +10,20 @@ Download VirtualBox: http://www.virtualbox
 Setting up TED VM Application
 -----------------------------
 
+Downdload TED VM files from Galaxy Data Libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Galaxy Data Libraries link: http://galaxy.hunter.cuny.edu/library/list#folders/Fb56e686e7a485784
+
+.. image:: tedvm_links.png
+   :align: center
+
 Select Appliance on VM
 ^^^^^^^^^^^^^^^^^^^^^^
 .. image:: importvm.jpg
    :align: center
 
-Import Appliance on VM
-^^^^^^^^^^^^^^^^^^^^^^
+Import OVA Appliance on VM
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: appliancevm_import.jpg
    :align: center
 
