@@ -14,7 +14,7 @@ Downdload TED VM files from Galaxy Data Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Galaxy Data Libraries link: http://galaxy.hunter.cuny.edu/library/list#folders/Fb56e686e7a485784
 
-.. image:: tedvm_links.png
+.. image:: ted_vm.jpg
    :align: center
 
 Select Appliance on VM
