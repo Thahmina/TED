@@ -4,7 +4,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Ultimate Guide to the TED toolkit: Transcriptomics that's Easy to Discover (TED) 
+Ultimate Guide to the TED toolkit: Transcriptomics Explorer for Discovery (TED) 
 ================================================================================  
 
 **A comprehensive and standardized approach for transcriptomic profiling as a clinically-oriented application.**
