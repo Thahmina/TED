@@ -11,7 +11,7 @@ Ultimate Guide to the TED toolkit: Transcriptomics Explorer for Discovery (TED)
 
 TED toolkit Manual- 
 
-Our Galaxy Page: **http://galaxy.hunter.cuny.edu/u/bioitcore/p/transcriptomics-thats-easy-to-discover-ted-toolkit** includes all instructions and sources in accessing and using the TED toolkit in full details, as well as the following content below.
+Our Galaxy Page: **http://galaxy.hunter.cuny.edu/u/bioitcore/p/transcriptomics-explorer-for-discovery-ted-toolkit** includes all instructions and sources in accessing and using the TED toolkit in full details, as well as the following content below.
 
 .. toctree::
    :maxdepth: 3
