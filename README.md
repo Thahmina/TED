@@ -2,11 +2,13 @@
 
 
 ## TED toolkit: a comprehensive approach for convenient transcriptomic profiling as a clinically-oriented application
-Bioinformatics tool: 
+ 
 https://peerj.com/preprints/3385/
 
 
-## Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform: https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html?aid=102094
+## Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform
+
+https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html?aid=102094
 
 
 The TED toolkit is a comprehensive approach to processing and analyzing RNA sequencing data. TED is divided into three major modules: data quality control, transcriptome data analysis, and data discovery, with ten pipelines in total. 
